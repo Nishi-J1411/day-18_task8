@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+.navbar-brand{
+    margin: 0 2px 0 10px;
+    font-weight: 600;
+}
+.navbar-nav {
+    padding: 0px 10px 0px 20px ;
+}
+.nav-item{
+    font-weight: 600;
+    padding: 0px 10px 0px 10px ;
+}
+ form{
+     padding: 0;
+ }
+ #search{
+     margin:10px 2px 2px 2px;
+     width: 20vw;
+ }
+ #search:hover{
+     background-color: rgb(243, 241, 241);
+ }
+
+#btn{
+    width: 55px;
+    height: 40px;
+    margin: 10px 5px 0 5px;
+}
+#btn:hover{
+    background-color:rgb(243, 241, 241);
+}
+#bar{
+    width: 10px;
+    height: 10px;
+}
+.main_img{
+    width: 45vw;
+    border-radius: 20px;
+    height: 50vh;
+    margin:10px 10px 10px 30px;
+}
+.homelink{
+    list-style-type:none;
+    margin: 20px 20px 20px 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;  
+}
+.inlinemenus a{
+    color: grey;
+    word-spacing: 20px;
+    margin:10px;
+}
+.small-img{
+    height: 20vh;
+    width: 12vw;
+     margin: 10px;
+     border-radius: 20px;
+     
+}
+.small-img-row{
+    margin: 10px 10px 10px 5px;
+     padding: 10px;
+}
+.internal-col{
+    margin: 20px 20px 20px 10px;
+    padding: 20px 10px 10px 50px;
+    height: auto;
+}
+.price-btn span{
+    color: rgb(77, 77, 253);
+    font-weight: 700;
+    font-size: 20px;
+}
+.discountlink{ 
+    margin-left: 20px;
+   font-size: 15px;
+   font-weight: 700;
+   color: rgb(41, 194, 120);
+}
+.company_name{
+    font-size: 13px;
+}
+.company_name a{
+    color: rgb(98, 92, 92);
+    font-weight: 700;
+}
+.product-info{
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+}
+ #navbarDropdown{
+    padding: 0;
+   font-size: 12px;
+   color: grey;
+   font-weight: 500; 
+}
+button.qty{
+       border: 1px solid lightgrey;
+}
+.card-header{
+    padding: 0;
+}
+#btn2{
+
+    height: 30px;
+    width: 30px;
+}
+#card-col{
+    margin: 0 0 0 0;
+    padding: 0;
+}
+#card{
+    margin: 0;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(236, 236, 236);
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* .my-col {
+      border: 2px solid green;
+    }
+
+    .my-row {
+      border: 2px solid red;
+    } */
+  </style>
+</head>
+
+<body>
+  <!-- ------------------------------------------------------- Nav bar started --------------------------------------------------------- -->
+  <div class="container-fluid my-container">
+    <div class="row my-row">
+      <div class="col col-sm-7 my-col">
+        <!-- row 1 col 1 -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <a class="navbar-brand" href="#">Shop. <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" id="bar"></span>
+          </button></a>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Electronics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Fashion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Books</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle mt-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Item1</a>
+                  <a class="dropdown-item" href="#">Item2</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">More Items</a>
+                </div>
+              </li>
+            </ul>
+        </nav>
+      </div>
+      <!--  --------------------------------------------------------------Nav bar end------------------------------------------------- -->
+      <!-- ------------------------------------------search bar , notification button and profile button --------------------------------- -->
+      <div class="col col-sm-3  my-col">
+        <form class="form-inline">
+          <input class="form-control bringonbtn shadow " type="search" id="search" placeholder="Search" aria-label="Search">
+      
+        </form>
+      </div>
+      <div class="col col-sm-2 my-col"> 
+        <button type="button" class="btn btn-md btn-basic btn-default active bringonbtn shadow " id="btn"><i class="  fa fa-shopping-cart btn-basic"></i> 0</button>
+        <button class="btn btn-md bringonbtn shadow" id="btn"> <a href="#"> <img class="img-responsive max-width" src="img/profile.png" alt="" width="40" height="30"></a></button>
+      </div>
+    </div>
+    <!-- -------------------------------------------------------------- first row ended-------------------------------------------- -->
+    <!--  -------------------------------------------------------------Second row started------------------------------------------- -->
+    <div class="row">
+      <div class="col col-sm-7 my-col">
+        <ul class="homelink">
+          <li class="inlinemenus"> <a href="#">HOME ></a>
+            <a href="#">Kitchen ></a>
+            <a href="#">Tools</a>
+          </li>
+      </div>
+    </div>
+    <!--  ----------------------------------------------Second Row ended-------------------------------------------------------- -->
+    <!-- ------------------------------ Third row in which images are placed started------------------------------------------------------------ -->
+    <div class="row my-row">
+  <div class="col col-sm-6 my-col" id="overview1" class="overviewcol"> 
+      <img src="img/img3 knife with veg.jpeg"  class="main_img img-responsive "alt="">
+      <div class="row my-row small-img-row">
+      <div class="col col-sm-4 my-col" ><img class="small-img img-responsiv" src="img/img1replace.jpg" alt=""></div>
+      <div class="col col-sm-4 my-col" ><img class="small-img img-responsiv" src="img/img2knife.jpg" alt=""></div>
+      <div class="col col-sm-4 my-col" ><img class="small-img img-responsiv" src="img/img5knifewith lemon.jpeg" alt=""></div>
+    </div>
+    </div>
+  <div class="col col-sm-6 my-col col-2_row-3" id="overview2" class="overviewcol"> 
+         <div class="col internal-col my-col">
+        <h1 class="product-title">Swiss Made Vegetable <br> Cutting knife</h1>
+        <p class="company_name"> By <a href="#">KC company</a></p>
+       
+        <div class="row row-for-price my-row">
+          <div class="col col-sm-2 col-for-p my-col"> <button class=" price-btn btn btn-md btn-basic btn-default active bringonbtn shadow" id="btn"> <span>  $25 </span></button>  </div>
+          <div class="col col-sm-6 col-for-p2 my-col"> 
+          <a href="#" class="discountlink"> Save 12%</a>
+          <p class="product-info">Inclusive of all taxes</p>
+        </div>
+        <p class="product-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Dolores accusan obcaecati nulla iste, aliquam as</p>
+        </div>
+        <div class="row my-row row-for-p " height="auto">
+          <button class=" price-btn btn btn-md btn-basic btn-default active bringonbtn shadow qty" id="btn"> 
+            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Qty
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Item1</a>
+            <a class="dropdown-item" href="#">Item2</a>
+            </button>
+        </div>
+      </div>
+      <div class="col internal-col my-col" id="card-col">
+      <div class="col my-col col-sm-6">
+            <div class="card bringonbtn shadow" id="card">
+              <div class="card-body">
+                <button class="btn btn-md bringonbtn shadow" id="btn2"> <a href="#"> <img class="img-responsive max-width" src="img/profile.png" alt="" width="30" height="30"></a></button></div>
+                <h5 class="card-title">Good Blade for Percise Cutting</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+  
+  </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
